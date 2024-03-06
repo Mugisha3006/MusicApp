@@ -1,0 +1,128 @@
+/* designing the nav bar with an input and a search button*/
+.flex-box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #f6d050;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    margin-right: 25px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.list li a:hover{
+    background-color: slategrey;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.search-container[input="text"]{
+    padding:6px;
+    
+}
+
+.search-container button{
+    padding: 5px 10px;
+    border: none;
+    color: black;
+    background-color: aliceblue;
+}
+
+/* styling the image in the header section */
+#img1{
+    display: block;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* styling the font of the webpage */
+h1, footer{
+    font-family: "Recursive", sans-serif;
+    text-align: center;
+    background-color: teal;
+}
+
+/* styling images in the music genres/categories */
+.music-genres img{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    list-style: none;
+}
+
+.music-genres{
+    list-style: none;
+}
+
+/* styling the headings and paragraph elements */
+h1{
+    margin: 0;
+    font-size: 40px;
+}
+h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 24px;
+}
+
+
+/* styling the trending section of the music */
+.wrapper{
+    display: flex;
+    list-style: none;
+} 
+
+.wrapper img{
+    flex: 1;
+    max-width: 200px;
+    height: 200px;
+    
+}
+
+/* aligning webpage */
+body{
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header, footer{
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+
+
