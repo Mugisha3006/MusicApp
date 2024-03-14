@@ -1,14 +1,15 @@
 /* designing the nav bar with an input and a search button*/
 .flex-box{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    background-color: #f6d050;
+    background-color: #E7717D;
 }
 
 .list{
     display: flex;
     list-style: none;
+    
 }
 
 .list li{
@@ -46,16 +47,17 @@
 /* styling the image in the header section */
 #img1{
     display: block;
-    max-width: 75%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20%;
 }
 
 /* styling the font of the webpage */
 h1, footer{
     font-family: "Recursive", sans-serif;
     text-align: center;
-    background-color: teal;
+    background-color:#AFD275;
 }
 
 /* styling images in the music genres/categories */
@@ -65,6 +67,7 @@ h1, footer{
     display: block;
     margin: auto;
     list-style: none;
+    border-radius: 15%;
 }
 
 .music-genres{
@@ -80,10 +83,13 @@ h2{
     text-decoration: underline;
     text-transform: capitalize;
     font-size: 35px;
+    text-align: center;
 }
 h3{
     font-size: 30px;
+    text-align: center;
 }
+
 p{
     font-size: 24px;
 }
@@ -93,14 +99,17 @@ p{
 .wrapper{
     display: flex;
     list-style: none;
+    gap:10px;
 } 
 
 .wrapper img{
     flex: 1;
     max-width: 200px;
     height: 200px;
+    border-radius: 20%;
     
 }
+
 
 /* aligning webpage */
 body{
@@ -121,6 +130,19 @@ body{
     padding: 20px;
 
 }
+
+@media (max-width:480px){
+    body{
+        background-color:#C2CAD0;
+    }
+    h1, h2, h3{
+        font-size:100px;
+    }
+}
+
+
+
+
 
 
 
